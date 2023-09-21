@@ -1,0 +1,17 @@
+.circle{
+    width: 110px; 
+    height: 110px;
+    border-radius: 50%;
+    background-color: #B3FFFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid #000022;
+}
+p{
+    color: #000022;
+    font-size: 50px;
+    text-align: center;
+}
