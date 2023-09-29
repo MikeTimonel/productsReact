@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './UserData.css';
+import {Link } from "react-router-dom";
 
 function Userdata() {
     const [userData, setUserData] = useState(null);
@@ -16,9 +17,12 @@ function Userdata() {
         <div class="circle">
           <p>{userData.name.firstname[0].toUpperCase()}{userData.name.lastname[0].toUpperCase()}</p>
         </div>
+        
       ) : (
         <p>Loading...</p>
       )}
+      <div>
+      <Link to={"/cart"}><button class ="back">CARRITO</button></Link></div>
     </div>
     );
 }
